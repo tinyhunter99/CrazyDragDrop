@@ -1,34 +1,34 @@
-body{
-    background-color: darkslateblue;
+body {
+  background-color: rgb(42, 33, 102);
 }
-.imgBox{
-    background-image: url('image.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top:5.5px;
-    left: 5px;
-    height: 145px;
-    width: 145px;
-    cursor: pointer;
+.imgBox {
+  background-image: url("image.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  position: relative;
+  top: 5.5px;
+  left: 5px;
+  height: 145px;
+  width: 145px;
+  cursor: pointer;
 }
-.whiteBox{
-    display: inline-block;
-    height: 155px;
-    width: 155px;
-    margin: 10px;
-    background-color: white;
-    border:3px solid black
+.whiteBox {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  margin: 12px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(23, 3, 53);
 }
-.hold{
-    border: 4px solid red;
+.hold {
+  border: 4px solid rgb(255, 97, 97);
 }
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
-.dashed{
-    background: rgb(214, 206, 206);
-    border-style: dashed;
+.dashed {
+  background: rgb(228, 199, 199);
+  border-style: dashed;
 }
